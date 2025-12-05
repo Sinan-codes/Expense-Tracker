@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Truly Expenses favicon">
+  <rect width="64" height="64" rx="12" fill="#0d6efd" />
+  <g fill="#fff" transform="translate(10,8)">
+    <path d="M22 6c-6 0-10 3-10 8 0 6 5 8 10 10 5 2 10 4 10 9 0 5-4 8-10 8-6 0-10-4-10-8" opacity="0.08"/>
+    <path d="M12 18c0-6 8-8 10-8s10 2 10 8c0 6-8 8-10 10s-10 2-10-10z"/>
+    <text x="8" y="28" font-family="sans-serif" font-size="18" fill="#0d6efd" font-weight="700">$</text>
+  </g>
+</svg>

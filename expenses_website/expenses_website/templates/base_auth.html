@@ -10,25 +10,13 @@
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
     <link href="{% static 'css/main.css' %}" rel="stylesheet" />
     <link href="{% static 'css/dashboard.css' %}" rel="stylesheet" />
+    <link rel="icon" href="{% static 'img/favicon.svg' %}" type="image/svg+xml">
+
   </head>
 
   <body>
     <!-- SVG ICONS -->
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-      <symbol id="check2" viewBox="0 0 16 16">
-        <path d="M13.854 3.646a.5.5..."></path>
-      </symbol>
-      <symbol id="circle-half" viewBox="0 0 16 16">
-        <path d="M8 15A7 7..."></path>
-      </symbol>
-      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-        <path d="M6 .278a.768..."></path>
-        <path d="M10.794 3.148a.217..."></path>
-      </symbol>
-      <symbol id="sun-fill" viewBox="0 0 16 16">
-        <path d="M8 12a4 4..."></path>
-      </symbol>
-    </svg>
+    
 
     <!-- THEME TOGGLE -->
     <div
@@ -42,9 +30,6 @@
         data-bs-toggle="dropdown"
         aria-label="Toggle theme (auto)"
       >
-        <svg class="bi my-1 theme-icon-active" aria-hidden="true">
-          <use href="#circle-half"></use>
-        </svg>
         <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
       </button>
 
@@ -58,11 +43,7 @@
             class="dropdown-item d-flex align-items-center"
             data-bs-theme-value="light"
           >
-            <svg class="bi me-2 opacity-50">
-              <use href="#sun-fill"></use>
-            </svg>
             Light
-            <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
           </button>
         </li>
 
@@ -72,11 +53,9 @@
             class="dropdown-item d-flex align-items-center"
             data-bs-theme-value="dark"
           >
-            <svg class="bi me-2 opacity-50">
-              <use href="#moon-stars-fill"></use>
-            </svg>
+            
             Dark
-            <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+            
           </button>
         </li>
 
@@ -86,21 +65,12 @@
             class="dropdown-item d-flex align-items-center active"
             data-bs-theme-value="auto"
           >
-            <svg class="bi me-2 opacity-50">
-              <use href="#circle-half"></use>
-            </svg>
+            
             Auto
-            <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
           </button>
         </li>
       </ul>
     </div>
-
-    <!-- FULL SVG ICON SET -->
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-      <!-- (Icons omitted for brevity; keep your originals) -->
-      <!-- calendar3, cart, chevron-right, door-closed, file-earmark, etc. -->
-    </svg>
 
     <!-- NAVBAR -->
 
