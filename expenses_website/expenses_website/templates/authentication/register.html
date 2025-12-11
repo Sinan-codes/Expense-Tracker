@@ -27,6 +27,8 @@
               placeholder="Username"
               id="usernameField"
               class="form-control form-control-sm"
+              value = "{{fieldValues.username}}"
+
             />
           </div>
           <div class="invalid-feedback" style="display: none;">
@@ -42,6 +44,7 @@
               placeholder="Email"
               id="emailField"
               class="form-control form-control-sm"
+              value = "{{fieldValues.email}}"
             />
           </div>
 
@@ -59,7 +62,7 @@
             />
             <small class="float-right py-5 showPasswordToggle">SHOW</small>
           </div>
-            <input type="submit" value="Register" class="btn btn-block btn-primary w-100" />
+            <input type="submit" value="Register" class="btn btn-block btn-primary w-100 submit-btn" />
 
         </form>
      </div>
